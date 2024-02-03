@@ -2,6 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>ScottLilly.ArchiTest</Title>
+    <Authors>Scott Lilly</Authors>
+    <Description>NuGet package to test architecture of C# projects and solutions.</Description>
+    <Copyright>Scott Lilly, 2024</Copyright>
+    <PackageProjectUrl>https://github.com/ScottLilly/ArchiTest</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ScottLilly/ArchiTest</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>architecture; test</PackageTags>
+    <Version>0.1.0.0</Version>
+    <PackageIcon>ArchiTestIcon.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="ArchiTestIcon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
